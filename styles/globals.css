@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  --main-red: red;
+  --main-blue: blue;
+}
+
+
+.dark {
+  --main-red: yellow;
+  --main-blue: green;
+}
+
 html,
 body {
   padding: 0;
